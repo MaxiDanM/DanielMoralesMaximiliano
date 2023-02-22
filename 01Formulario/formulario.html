@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/validar.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <form name="formulario" method="post" onsubmit="return validar(this)">
+            <label>Nombre</label><br>
+            <input type="text" name="nombre"><br>
+            <label>ApellidoP</label><br>
+            <input type="text" name="apellidop"><br>
+            <label>ApellidoM</label><br>
+            <input type="text" name="apellidom"><br>
+            <label>FechaNacimiento</label><br>
+            <input type="date" name="fechanacimiento"><br>
+            <label>NumeroCel</label><br>
+            <input type="tel" name="numerocelular"><br>
+            <label>E-mail</label><br>
+            <input type="email" name="E.E-mail"><br>
+            <br>
+            <input type="submit" name="enviar" value="enviar datos"><br>
+        </form>
+    </div>
+</body>
+</html>
